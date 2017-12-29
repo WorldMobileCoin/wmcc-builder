@@ -1,0 +1,12 @@
+{
+  "linux": {
+    "target": "AppImage",
+    "icon": "build/128x128.png",
+    "synopsis": "WMCC Desktop Application",
+    "category": "Network;Development;System;",
+    "desktop": "build/wmcc.desktop",
+  },
+  "appImage": {
+    "artifactName": "${productName}_linux-x64_${version}.${ext}"
+  }
+}

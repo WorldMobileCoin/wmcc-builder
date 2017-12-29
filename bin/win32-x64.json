@@ -1,0 +1,20 @@
+{
+  "win": {
+    "target": "nsis",
+    "icon": "build/icon.ico"
+  },
+  "nsis": {
+    "oneClick": false,
+    "installerIcon": "build/nsis/install.ico",
+    "installerHeader": "build/nsis/header.jpg",
+    "installerSidebar": "build/nsis/sidebar.bmp",
+    "uninstallerIcon": "build/nsis/uninstall.ico",
+    "uninstallerSidebar": "build/nsis/sidebar.bmp",
+    "deleteAppDataOnUninstall": false,
+    "createStartMenuShortcut": true,
+    "createDesktopShortcut": true,
+    "menuCategory": true,
+    "shortcutName": "WMCC Desktop",
+    "artifactName": "${productName}_win32-x64_${version}_setup.${ext}"
+  }
+}
