@@ -1,6 +1,5 @@
 #! /usr/bin/env node
 
-const Rebuild = require('electron-rebuild');
 const Builder = require("electron-builder")
 const Path = require('path');
 const Child = require('child_process');
