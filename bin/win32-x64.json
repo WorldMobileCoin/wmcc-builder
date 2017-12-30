@@ -1,12 +1,16 @@
 {
   "win": {
     "target": "nsis",
-    "icon": "build/icon.ico"
+    "icon": "build/icon.ico",
+    "publish": {
+      "provider": "github",
+      "repo": "wmcc-desktop"
+    }
   },
   "nsis": {
     "oneClick": false,
     "installerIcon": "build/nsis/install.ico",
-    "installerHeader": "build/nsis/header.jpg",
+    "installerHeader": "build/nsis/header.bmp",
     "installerSidebar": "build/nsis/sidebar.bmp",
     "uninstallerIcon": "build/nsis/uninstall.ico",
     "uninstallerSidebar": "build/nsis/sidebar.bmp",
