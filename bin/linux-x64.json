@@ -1,9 +1,19 @@
 {
   "linux": {
-    "target": "AppImage",
+    "target": [
+      "AppImage",
+      "deb",
+      "snap",
+      "rpm",
+      "tar.gz"
+    ],
     "icon": "build",
     "synopsis": "WMCC Desktop Application",
-    "category": "Network;Development;System;"
+    "category": "Network;Development;System;",
+    "publish": {
+      "provider": "github",
+      "repo": "wmcc-desktop"
+    }
   },
   "appImage": {
     "artifactName": "${productName}_linux-x64_${version}.${ext}"
