@@ -4,7 +4,6 @@
       "AppImage",
       "deb",
       "snap",
-      "rpm",
       "tar.gz"
     ],
     "icon": "build",
